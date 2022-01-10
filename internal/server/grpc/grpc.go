@@ -3,9 +3,8 @@ package grpc
 import(
   "context"
   pbgameengine "github.com/denialtorres/m-apis/m-game-engine/v1"
-  "github.com/denialtorres/m-game-engine/server/logic"
+  "github.com/denialtorres/m-game-engine/internal/server/logic"
   "google.golang.org/grpc"
-  "context"
   "github.com/rs/zerolog/log"
   "net"
   "github.com/pkg/errors"
